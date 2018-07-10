@@ -42,7 +42,7 @@ let webpackConfig = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'wildire-comment.min.js'
+    filename: 'wildfire-comment.min.js'
   },
   devtool: '#source-map',
   plugins: [
