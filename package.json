@@ -1,0 +1,27 @@
+{
+  "name": "wildfire-comment",
+  "version": "1.0.0",
+  "description": "A drop-in replacement for other comment plug-ins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildfirejs/wildfire-comment.git"
+  },
+  "keywords": [
+    "wildfire",
+    "comment",
+    "comment",
+    "plug-in",
+    "firebase",
+    "wilddog"
+  ],
+  "author": "Kang Cheng",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/wildfirejs/wildfire-comment/issues"
+  },
+  "homepage": "https://github.com/wildfirejs/wildfire-comment#readme"
+}
