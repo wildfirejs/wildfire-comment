@@ -188,12 +188,12 @@
 
           const useDev = ${useDev}
           const version = '${version}'
-          const databaseProvider = '${databaseProvider}'
+          const databaseProvider = '${databaseProvider || ''}' || undefined
           const databaseConfig = JSON.parse('${JSON.stringify(databaseConfig)}')
           let standbyDatabaseConfigs = '${standbyDatabaseConfigs.join(',')}'.split(',')
           if (standbyDatabaseConfigs[0] === '') standbyDatabaseConfigs = []
           const pageTitle = '${pageTitle}'
-          const pageURL = '${pageURL}'
+          const pageURL = '${pageURL || ''}' || undefined
           const pageURLMode = '${pageURLMode}'
           const locale = '${locale}'
           const theme = '${theme}'
