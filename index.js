@@ -188,12 +188,12 @@
 
           const useDev = ${useDev}
           const version = '${version}'
-          const databaseProvider = '${databaseProvider || ''}' || undefined
+          const databaseProvider = '${databaseProvider}'
           const databaseConfig = JSON.parse('${JSON.stringify(databaseConfig)}')
           let standbyDatabaseConfigs = '${standbyDatabaseConfigs.join(',')}'.split(',')
           if (standbyDatabaseConfigs[0] === '') standbyDatabaseConfigs = []
           const pageTitle = '${pageTitle}'
-          const pageURL = '${pageURL || ''}' || undefined
+          const pageURL = '${pageURL}'
           const pageURLMode = '${pageURLMode}'
           const locale = '${locale}'
           const theme = '${theme}'
@@ -240,7 +240,7 @@
     databaseConfig,
     standbyDatabaseConfigs = [],
     pageTitle = document.title,
-    pageURL,
+    pageURL = '',
     pageURLMode = 'normal',
     locale = 'en',
     theme = 'light',
